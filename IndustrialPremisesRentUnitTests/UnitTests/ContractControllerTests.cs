@@ -11,7 +11,7 @@ namespace IndustrialPremisesRentUnitTests.UnitTests
     {
         [DataTestMethod]
         [DataRow(1, 3, DisplayName = "Get contract by id")]
-        [DataRow(0, 0, DisplayName = "Get all contracts")]
+        [DataRow(0, 0, DisplayName = "Get non-existing contract")]
         public void ContractControllerTests_GetContract(int id, int equipmentAmount)
         {
             // Arrange
